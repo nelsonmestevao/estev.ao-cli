@@ -23,7 +23,8 @@ pip install estev.ao-cli
 ### :video_game: Usage
 
 After you have installed the program you can run it from everywhere. Just run
-`estev.ao`.
+`estev.ao` and give it a URL. Then the shorted version will be on your
+clipboard.
 
 ```
 estev.ao <url>

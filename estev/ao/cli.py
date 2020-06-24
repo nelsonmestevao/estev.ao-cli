@@ -10,8 +10,6 @@ Usage:
 Options:
   -h --help         Show this screen.
   -v --version      Show version.
-  -l --lang=<lang>  Choose programming language [default: C].
-  -d --debug        Run in debug mode for developting purposes.
 """
 from docopt import docopt
 import requests
