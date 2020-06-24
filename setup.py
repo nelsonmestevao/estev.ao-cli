@@ -13,7 +13,7 @@ setuptools.setup(
     description="A CLI to create shortener urls",
     url="https://github.com/nelsonmestevao/estev.ao-cli",
     packages=setuptools.find_packages(),
-    install_requires=["docopt==0.6.2"],
+    install_requires=["docopt==0.6.2", "pyperclip==1.8.0", "requests==2.24.0"],
     entry_points={
         "console_scripts":
         ["estev.ao = estev.ao.cli:main", "estev = estev.ao.cli:main"]
