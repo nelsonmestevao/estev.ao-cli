@@ -26,8 +26,9 @@ After you have installed the program you can run it from everywhere. Just run
 `estev.ao` and give it a URL. Then the shorted version will be on your
 clipboard.
 
-```
-estev.ao <url>
+```bash
+$ estev.ao https://github.com/nelsonmestevao/estev.ao-cli
+https://estev.ao/u/LMkQJ
 ```
 
 Use `--help` for more help on usage.
