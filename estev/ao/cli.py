@@ -16,11 +16,12 @@ import requests
 import pyperclip
 
 from estev.ao import VERSION
+from estev.ao.config import API_ENDPOINT
 
 
 def create_link(url: str) -> str:
     """Create a shorted version of the url"""
-    result = requests.post('http://api.estev.ao/links', json={
+    result = requests.post(API_ENDPOINT + '/links', json={
         'url': url
     }).json()
 
