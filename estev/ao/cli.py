@@ -16,6 +16,7 @@ import requests
 import pyperclip
 
 from estev.ao import VERSION
+from estev.ao.config import APP_DOMAIN
 from estev.ao.config import API_ENDPOINT
 
 
@@ -25,7 +26,7 @@ def create_link(url: str) -> str:
         'url': url
     }).json()
 
-    return result['link']
+    return APP_DOMAIN + '/u/' + result['slug']
 
 
 def main():
