@@ -1,1 +1,2 @@
-API_ENDPOINT = 'http://api.estev.ao'
+APP_DOMAIN = 'https://estev.ao'
+API_ENDPOINT = APP_DOMAIN + '/api'
